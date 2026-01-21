@@ -1,0 +1,146 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.5cm, top=1.2cm, bottom=1cm]{geometry}
+\usepackage{charter} % Serif font similar to the reference
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{setspace}
+
+% Colors
+\definecolor{linkcolor}{HTML}{000000}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Custom section command matching the reference style
+% Line ABOVE the section name, section name on left margin
+\newcommand{\cvsection}[1]{%
+    \vspace{0.8em}
+    \noindent
+    \begin{minipage}[t]{2.5cm}
+        \rule{2cm}{0.4pt}\\[0.2em]
+        {\large #1}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{13.5cm}
+        \vspace{1.4em}
+    \end{minipage}
+    \vspace{0.1em}
+}
+
+% Entry with date, title, subtitle, and description
+\newcommand{\cventry}[4]{%
+    \noindent
+    \begin{minipage}[t]{2.5cm}
+        \raggedleft
+        \small #1
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{13.5cm}
+        \textbf{#2}\\
+        \textit{#3}\\[0.2em]
+        #4
+    \end{minipage}
+    \vspace{0.5em}
+}
+
+% Entry without description (for education, simple items)
+\newcommand{\cventrysimple}[3]{%
+    \noindent
+    \begin{minipage}[t]{2.5cm}
+        \raggedleft
+        \small #1
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{13.5cm}
+        \textbf{#2}\\
+        #3
+    \end{minipage}
+    \vspace{0.4em}
+}
+
+% Single line entry (for awards, languages)
+\newcommand{\cvline}[2]{%
+    \noindent
+    \begin{minipage}[t]{2.5cm}
+        \raggedleft
+        \small #1
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{13.5cm}
+        #2
+    \end{minipage}
+    \vspace{0.2em}
+}
+
+\begin{document}
+
+% Header
+\noindent
+\begin{minipage}[t]{0.55\textwidth}
+    {\fontsize{34}{40}\selectfont\textbf{Victor Maricato}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+    \raggedleft
+    \small
+    \href{mailto:maricatovictor@gmail.com}{maricatovictor@gmail.com}\\
+    \href{https://linkedin.com/in/victormaricato}{\underline{LinkedIn}} · \href{https://github.com/victormaricato}{\underline{GitHub}}
+\end{minipage}
+
+% Employment
+\cvsection{Employment}
+
+\cventry{09/2022 -- 01/2026}{Upwork}{Staff Machine Learning Engineer · San Francisco (Remote)\newline \textnormal{Senior Machine Learning Engineer (01/2024 -- 04/2025)}\newline \textnormal{Machine Learning Engineer (09/2022 -- 01/2024)}}{Led team of 3 on LLM and information retrieval research. Drove >\$60M revenue impact using Small Language Models with <200ms latency. Led development of internal RAG model for chat and proposal generation (\href{https://www.upwork.com/uma}{\underline{Upwork Uma}}). Published at EMNLP 2025: \href{https://aclanthology.org/2025.emnlp-industry.154/}{\underline{DispatchQA}}.}
+
+\cventry{09/2020 -- 09/2022}{Mendelics}{Data Scientist · São Paulo}{Built variant prediction model used in Brazil's public healthcare system. Reduced medical revision by 90\%+. Deployed SARS-CoV-2 pipeline; contributed to PANGOLIN.}
+
+\cventry{04/2019 -- 08/2020}{OLX}{Data Scientist Intern · Rio de Janeiro}{Churn prediction, image-based category suggestions, Bayesian analysis for ad optimization.}
+
+\cventry{12/2017 -- 04/2019}{Shell}{Research Engineer (Biotechnology) · Rio de Janeiro}{Increased bioproduct yield by 27.4\% through Deep Learning regression models.}
+
+% Projects
+\cvsection{Projects}
+
+\cventry{2026}{\href{https://focusy.co}{\underline{Focusy.co}}}{Founder · Stockholm}{Reading assistant that parses content from documents, images, and web pages into RSVP format to help users read faster and understand content better.}
+
+\cventry{2024 -- 2025}{\href{https://kannel.ai}{\underline{Kannel.AI}}}{Founder · Stockholm}{Speech-to-text models with prompt-guided and formatted transcription.}
+
+% Education
+\cvsection{Education}
+
+\cventrysimple{2024 -- 2025}{MSc Medical Science · MSc Science}{Karolinska Institute · Stockholm University}
+
+\cventrysimple{2019 -- 2023}{BSc Information Systems}{Federal University of Rio de Janeiro}
+
+\cventrysimple{2020 -- 2021}{Visiting Student in Computer Science (AI)}{Heriot-Watt University, Edinburgh}
+
+\cventrysimple{2014 -- 2018}{Technical Degree in Biotechnology}{Federal Institute of Rio de Janeiro}
+
+% Additional
+\cvsection{Additional}
+
+\cvline{2022 -- 2023}{\textbf{Research Assistant} · MIT CSAIL (Part-time)}
+
+\cvline{2022}{\textbf{Google's Advanced Solutions Lab: Machine Learning}}
+
+\cvline{Languages}{English (Fluent, TOEFL 102) · German (Intermediate) · Portuguese (Native)}
+
+% Publications
+\cvsection{Publications}
+
+\cvline{}{See \href{https://scholar.google.com/citations?user=WaAoUqsAAAAJ}{\underline{Google Scholar}}}
+
+\end{document}
