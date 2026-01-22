@@ -27,17 +27,17 @@
 % Custom section command matching the reference style
 % Line ABOVE the section name, section name on left margin
 \newcommand{\cvsection}[1]{%
-    \vspace{0.8em}
+    \vspace{0.5em}
     \noindent
     \begin{minipage}[t]{2.5cm}
-        \rule{2cm}{0.4pt}\\[0.2em]
+        \rule{2cm}{0.4pt}\\[0.1em]
         {\large #1}
     \end{minipage}%
     \hfill
-    \begin{minipage}[t]{13.5cm}
-        \vspace{1.4em}
+    \begin{minipage}[t]{14cm}
+        \vspace{1.1em}
     \end{minipage}
-    \vspace{0.1em}
+    \vspace{0em}
 }
 
 % Entry with date, title, subtitle, and description
@@ -48,12 +48,12 @@
         \small #1
     \end{minipage}%
     \hfill
-    \begin{minipage}[t]{13.5cm}
+    \begin{minipage}[t]{14cm}
         \textbf{#2}\\
-        \textit{#3}\\[0.2em]
+        \textit{#3}\\[0.1em]
         #4
     \end{minipage}
-    \vspace{0.5em}
+    \vspace{0.3em}
 }
 
 % Entry without description (for education, simple items)
@@ -79,10 +79,10 @@
         \small #1
     \end{minipage}%
     \hfill
-    \begin{minipage}[t]{13.5cm}
+    \begin{minipage}[t]{14cm}
         #2
     \end{minipage}
-    \vspace{0.2em}
+    \vspace{0.1em}
 }
 
 \begin{document}
@@ -103,9 +103,9 @@
 % Employment
 \cvsection{Employment}
 
-\cventry{09/2022 -- 01/2026}{Upwork}{Staff Machine Learning Engineer · San Francisco (Remote)\newline \textnormal{Senior Machine Learning Engineer (01/2024 -- 04/2025)}\newline \textnormal{Machine Learning Engineer (09/2022 -- 01/2024)}}{Led team of 3 on LLM and information retrieval research. Drove >\$60M revenue impact using Small Language Models with <200ms latency. Led development of internal RAG model for chat and proposal generation (\href{https://www.upwork.com/uma}{\underline{Upwork Uma}}). Published at EMNLP 2025: \href{https://aclanthology.org/2025.emnlp-industry.154/}{\underline{DispatchQA}}.}
+\cventry{09/2022 -- 01/2026}{Upwork}{Staff Machine Learning Engineer · San Francisco (Remote)\newline \textnormal{Senior Machine Learning Engineer (01/2024 -- 04/2025)}\newline \textnormal{Machine Learning Engineer (09/2022 -- 01/2024)}}{Led team of 3 on LLM and information retrieval research. Drove >\$60M revenue impact using Small Language Models with <200ms latency. Led development of internal RAG model for chat and proposal generation (\href{https://www.upwork.com/uma}{\underline{Upwork Uma}}). Fine-tuned SLM for function calling with query decomposition and reformulation; integrated multi-source data pipelines and built LLM-as-Judge evaluation framework. Published at EMNLP 2025: \href{https://aclanthology.org/2025.emnlp-industry.154/}{\underline{DispatchQA}}.}
 
-\cventry{09/2020 -- 09/2022}{Mendelics}{Data Scientist · São Paulo}{Built variant prediction model used in Brazil's public healthcare system. Reduced medical revision by 90\%+. Deployed SARS-CoV-2 pipeline; contributed to PANGOLIN.}
+\cventry{09/2020 -- 09/2022}{Mendelics}{Genomics Data Scientist · São Paulo}{Built variant prediction model for Brazil's public healthcare using protein language models fine-tuned on local population data. Integrated AI into Cromwell/Snakemake pipelines. Deployed SARS-CoV-2 variant identification pipeline; contributed to PANGOLIN.}
 
 \cventry{04/2019 -- 08/2020}{OLX}{Data Scientist Intern · Rio de Janeiro}{Churn prediction, image-based category suggestions, Bayesian analysis for ad optimization.}
 
@@ -114,9 +114,9 @@
 % Projects
 \cvsection{Projects}
 
-\cventry{2026}{\href{https://focusy.co}{\underline{Focusy.co}}}{Founder · Stockholm}{Reading assistant that parses content from documents, images, and web pages into RSVP format to help users read faster and understand content better.}
+\cventry{2026}{\href{https://focusy.co}{\underline{Focusy.co}}}{Founder · Stockholm}{Reading assistant for faster reading and better understanding of content.}
 
-\cventry{2024 -- 2025}{\href{https://kannel.ai}{\underline{Kannel.AI}}}{Founder · Stockholm}{Speech-to-text models with prompt-guided and formatted transcription.}
+\cventry{2024 -- 2025}{\href{https://kannel.ai}{\underline{Kannel.AI}}}{Founder · Stockholm}{Speech-to-text with prompt-guided and formatted transcription.}
 
 % Education
 \cvsection{Education}

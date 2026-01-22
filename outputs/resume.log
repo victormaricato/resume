@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  21 JAN 2026 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  22 JAN 2026 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -252,7 +252,7 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box53
 )
-No file resume.aux.
+(outputs/resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -273,6 +273,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -308,8 +309,10 @@ LaTeX Font Info:    ... okay on input line 88.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 88.
+(outputs/resume.out) (outputs/resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
+
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -340,7 +343,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 106.
- [1
+
+Underfull \hbox (badness 2662) in paragraph at lines 108--108
+\T1/bch/m/n/10.95 Built vari-ant pre-dic-tion model for Brazil's pub-lic health
+-care us-ing pro-tein
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 108--108
+\T1/bch/m/n/10.95 lan-guage mod-els fine-tuned on lo-cal pop-u-la-tion data. In
+-te-grated AI into
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 108--108
+\T1/bch/m/n/10.95 Cromwell/Snakemake pipelines. De-ployed SARS-CoV-2 vari-ant i
+den-ti-fi-ca-tion
+ []
+
+[1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (outputs/resume.aux)
@@ -348,28 +369,21 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (outputs/resume.aux)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9388 strings out of 474116
- 144060 string characters out of 5743683
- 1942187 words of memory out of 5000000
- 31653 multiletter control sequences out of 15000+600000
+ 9396 strings out of 474116
+ 144214 string characters out of 5743683
+ 1943187 words of memory out of 5000000
+ 31655 multiletter control sequences out of 15000+600000
  582264 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,660b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,824b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on outputs/resume.pdf (1 page, 51369 bytes).
+Output written on outputs/resume.pdf (1 page, 51986 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
