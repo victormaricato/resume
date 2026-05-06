@@ -124,7 +124,6 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchb8t.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchri8c.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -133,6 +132,7 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchri8c.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchb8c.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
@@ -146,11 +146,11 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
+INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
+INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchri8c.vf
-INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchb8c.vf
 INPUT /opt/texlive/texdir/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT outputs/resume.aux
